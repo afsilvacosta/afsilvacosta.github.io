@@ -97,123 +97,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://afsilvacosta.github.io.git/2018/03/06/hello-world/" data-id="cjegagzua0002g0titfg4z2ff" class="article-share-link">Teilen</a>
+      <a data-url="http://afsilvacosta.github.io.git/2018/03/06/hello-world/" data-id="cjegba2oh0000x4tiekavzwb9" class="article-share-link">Teilen</a>
       
       
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-teste123" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/06/teste123/" class="article-date">
-  <time datetime="2018-03-06T22:39:42.000Z" itemprop="datePublished">06-03-PMPMPMPM</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/06/teste123/">teste123</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a>GIT</h1><p>Acessar pela batch</p>
-<p><strong>Enviar Arquivo </strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git add --all</span><br><span class="line"></span><br><span class="line">git commit -m &quot;Initial commit&quot;</span><br><span class="line"></span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></p>
-<ul>
-<li>Criar uma branch: git checkout -b challenge-10</li>
-<li>Alternar entre master e branch: git checkout (master ou nome-da-branch)</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://afsilvacosta.github.io.git/2018/03/06/teste123/" data-id="cjegagzts0000g0tijbg1a8pa" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-teste" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/06/teste/" class="article-date">
-  <time datetime="2018-03-06T22:36:29.000Z" itemprop="datePublished">06-03-PMPMPMPM</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/blogger/">blogger</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/06/teste/">teste</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Conditional-Tags"><a href="#Conditional-Tags" class="headerlink" title="Conditional Tags"></a>Conditional Tags</h1><p>O XHTML do blog do Blogger nos permite editar o modelo e torn�-lo din�mico. Vamos verificar algumas tags condicionais adicionais.</p>
-<ul>
-<li><p><strong>Esperando implementar uma funcionalidade apenas na Homepage?</strong></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b:if</span> <span class="attr">cond</span>=<span class="string">'data:blog.url == data:blog.homepageUrl'</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Homepage--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:if</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Deseja adicionar bot�es apenas nas p�ginas de postagem e p�ginas est�ticas?</strong></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b:if</span> <span class="attr">cond</span>=<span class="string">'data:blog.url == data:post.url'</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Post and Static Pages-&gt;</span></span><br><span class="line"><span class="comment">&lt;/b:if&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Pronto para fazer mudan�as espec�ficas apenas em uma publica��o / p�gina espec�fica?</strong></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b:if</span> <span class="attr">cond</span>=<span class="string">'data:blog.url == "URL-especifica-do-blog"'</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--Specific Page--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:if</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Deseja ter um trabalho feito em todas as p�ginas, exceto p�ginas p�s-listagem?</strong></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b:if</span> <span class="attr">cond</span>=<span class="string">'data:blog.pageType != &amp;quot;index&amp;quot;'</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- all pages NOT index pages --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:if</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h3 id="Fun��o-Multi-condicional"><a href="#Fun��o-Multi-condicional" class="headerlink" title="Fun��o Multi-condicional"></a>Fun��o Multi-condicional</h3><p>Voc� possui alguma fun��o multi-condicional para fazer? Sem problemas. O Blogger tem suas pr�prias tags especiais &lt;b: if&gt; e &lt;b: else /&gt;.<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b:if</span> <span class="attr">cond</span>=<span class="string">'CONDITION-CODE-1'</span>&gt;</span></span><br><span class="line">	<span class="comment">&lt;!--..Action-Code-1...--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">b:elseif</span> <span class="attr">cond</span>=<span class="string">'CONDITION-CODE-2'</span>/&gt;</span></span><br><span class="line">	<span class="comment">&lt;!--..Action-Code-2...--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">b:else</span>/&gt;</span></span><br><span class="line">	<span class="comment">&lt;!--..Default-Action-Code...--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:if</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>Gostaria de executar opera��es AND / OR em qualquer lugar? A solu��o est� aqui. O Blogger faz uso de AND / OR operadores nas tags condicionais.<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">b:</span> <span class="attr">if</span>  <span class="attr">cond</span>=<span class="string">'CONDITION-CODE-1 &amp;&amp; CONDITION-CODE-2'</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--..Action-Code...--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:</span> <span class="attr">if</span> &gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">b:</span> <span class="attr">if</span>  <span class="attr">cond</span>=<span class="string">'CONDITION-CODE-1 || CONDITION-CODE-2'</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--..Action-Code...--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:</span> <span class="attr">if</span> &gt;</span></span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">### Filtrar Posts pela Label</span><br><span class="line">```xhtml</span><br><span class="line"><span class="tag">&lt;<span class="name">b:loop</span> <span class="attr">values</span>=<span class="string">'data:post.labels'</span> <span class="attr">var</span>=<span class="string">'label'</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">b:if</span> <span class="attr">cond</span>=<span class="string">'data:label.name in &#123; &amp;quot;LABEL1&amp;quot;, &amp;quot;LABEL2&amp;quot;, &amp;quot;LABEL3&amp;quot; &#125;'</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- TRUE IF LABEL IS LABEL1, LABEL2 OR LABEL3 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">data:label.name</span>/&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">b:if</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">b:loop</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="Outras-Conditional-Tags"><a href="#Outras-Conditional-Tags" class="headerlink" title="Outras Conditional Tags"></a>Outras Conditional Tags</h2><p>H� muitas outras condi��es. Mas eles s�o “mais profundos”. Estes s�o alguns deles:</p>
-<ul>
-<li>&lt;b:if cond=’data:blog.metaDescription’&gt;</li>
-<li>&lt;b:if cond=’data:mobile’&gt;</li>
-<li>&lt;b:if cond=’data:title’&gt; or &lt;b:if cond=’data:title != “”‘&gt;</li>
-<li>&lt;b:if cond=’data:showThumbnails == “false/true”‘&gt;</li>
-<li>&lt;b:if cond=’data:showSnippets == “false/true”‘&gt;</li>
-<li>&lt;b:if cond=’data:post.thumbnail’&gt;</li>
-<li>&lt;b:if cond=’data:display == “list”‘&gt;</li>
-<li>&lt;b:if cond=’data:blog.url == data:label.url’&gt;</li>
-<li>&lt;b:if cond=’data:showFreqNumbers’&gt;</li>
-<li>&lt;b:if cond=’data:useImage’&gt;</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://afsilvacosta.github.io.git/2018/03/06/teste/" data-id="cjegagzu00001g0tivo1q9qhu" class="article-share-link">Teilen</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blogger/">blogger</a></li></ul>
-
     </footer>
   </div>
   
@@ -228,33 +114,12 @@
           <aside id="sidebar">
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Kategorien</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/blogger/">blogger</a></li></ul>
-    </div>
-  </div>
-
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blogger/">blogger</a></li></ul>
-    </div>
-  </div>
-
 
   
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/blogger/" style="font-size: 10px;">blogger</a>
-    </div>
-  </div>
-
   
     
   <div class="widget-wrap">
@@ -274,14 +139,6 @@
         
           <li>
             <a href="/2018/03/06/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2018/03/06/teste123/">teste123</a>
-          </li>
-        
-          <li>
-            <a href="/2018/03/06/teste/">teste</a>
           </li>
         
       </ul>
